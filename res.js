@@ -1,0 +1,31 @@
+const obj = {
+    coord: { lon: 43.9821, lat: 36.2098 },
+    weather: [
+        {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04d",
+        },
+    ],
+    base: "stations",
+    main: {
+        temp: 77.25,
+        feels_like: 76.05,
+        temp_min: 77.25,
+        temp_max: 77.25,
+        pressure: 1008,
+        humidity: 29,
+        sea_level: 1008,
+        grnd_level: 959,
+    },
+    visibility: 10000,
+    wind: { speed: 16.31, deg: 116, gust: 22.91 },
+    clouds: { all: 100 },
+    dt: 1743344692,
+    sys: { country: "IQ", sunrise: 1743303189, sunset: 1743348219 },
+    timezone: 10800,
+    id: 95446,
+    name: "Erbil",
+    cod: 200,
+}
